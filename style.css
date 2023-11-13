@@ -102,6 +102,48 @@ nav ul li a{
 
 }
 
+/////
+@media screen and (max-width: 767px) {
+    /* Adjust styles for screens with a maximum width of 767px (typical for mobile devices) */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero {
+        padding-top: 60px; /* Adjust as needed to create space at the top of the hero section */
+    }
+
+    nav {
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .content {
+        text-align: center;
+        margin-top: 30px; /* Adjust as needed to create space between the content and the navigation */
+    }
+}
+
+ 
+
+
 
  
 
